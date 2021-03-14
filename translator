@@ -1,0 +1,44 @@
+
+def translate(inp):
+    if "sticeler" in (inp):
+        inp = inp.replace("sticeler", "emoji")
+    if "brain cell lvl" in (inp):
+        inp = inp.replace("brain cell lvl", "intelligence")
+    if "imto" in (inp):
+        inp = inp.replace("imto", "into")
+    if "thats offensive" in (inp):
+        inp = inp.replace("thats offensive", "you hurt my feelings")
+    if "expand" in (inp):
+        inp = inp.replace("expand", "more")
+    if "bcuz" in (inp):
+        inp = inp.replace("bcuz", "because")
+    if "wat" in (inp):
+        inp = inp.replace("wat", "what")
+    if "fyi" in (inp):
+        inp = inp.replace("fyi", "for your information")
+    if "over" in (inp):
+        inp = inp.replace("over", "than")
+    if "yurs" in (inp):
+        inp = inp.replace("yurs", "yours")
+    if "no i" in (inp):
+        inp = inp.replace("no i", "no one")
+    if "antthing" in (inp):
+        inp = inp.replace("antthing", "anything")
+    if "sayiing" in (inp):
+        inp = inp.replace("sayiing", "saying")
+    if "i sad" in (inp):
+        inp = inp.replace("i sad", "I'm sad")
+    if "thw" in (inp):
+        inp = inp.replace("thw", "the")
+    if "previouse" in (inp):
+        inp = inp.replace("previouse", "previous")
+    if "dat" in (inp):
+        inp = inp.replace("dat", "that")
+    if "msg" in (inp):
+        inp = inp.replace("msg", "message")
+    if "gool" in (inp):
+        inp = inp.replace("gool", "good")
+
+    print(inp)
+
+translate(input("Enter charis: "))
